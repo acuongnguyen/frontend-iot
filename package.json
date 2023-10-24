@@ -43,7 +43,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://acuongnguyen.github.io/iot-ung-dung",
+  "homepage": "https://acuongnguyen.github.io/frontend-iot",
   "eslintConfig": {
     "extends": [
       "react-app",
