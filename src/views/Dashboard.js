@@ -4,8 +4,6 @@ import ChartComponent from "../components/ChartComponent";
 import LightBulb from "../components/LightBulb";
 import "../styles/style.css";
 import "../styles/style.css";
-import io from "socket.io-client";
-const socket = io("http://192.168.0.117:3000");
 function Dashboard({
   currentTemperature,
   currentHumidity,

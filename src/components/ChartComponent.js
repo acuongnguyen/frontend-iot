@@ -9,6 +9,7 @@ import {
   Legend,
 } from "recharts";
 import "../styles/style.css";
+import "../styles/datasensor.css";
 import { useDispatch, useSelector } from "react-redux";
 import { addDataPoint } from "../utils/actions";
 import { getMqttDataFromBackend } from "../services/apiService";
