@@ -7,14 +7,17 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .widgets--widget-label {
   line-height: normal;
 }
+
 .container {
   width: 100%;
   height: 710px;
   position: relative;
 }
+
 /*header*/
 #header {
   width: 98.6%;
@@ -72,6 +75,7 @@ body {
 .logout-button:hover {
   background-color: #c0392b;
 }
+
 /*end*/
 /*info*/
 #info {
@@ -88,6 +92,7 @@ body {
   align-items: center;
   text-align: center;
 }
+
 .user-info {
   display: flex;
   flex-direction: column;
@@ -137,6 +142,7 @@ body {
 .menu-item.active {
   font-weight: bold;
 }
+
 /*end*/
 /*datasensor*/
 /* CSS cho phần datasensor */
@@ -145,21 +151,20 @@ body {
   float: left;
   padding: 10px;
   display: flex;
-  /* flex-wrap: wrap;
-  justify-content: center; */
   margin-top: 10px;
-  min-width: 300px;
+
   flex-direction: column;
   align-items: center;
 }
 
-.search-container{
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;  
+.search-container {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
+
 .filter-container {
   /* Add your styles here */
   margin-bottom: 20px;
@@ -192,20 +197,95 @@ body {
 .sensor-data-table tr:hover {
   background-color: #ddd;
 }
+
 /*end*/
 /* CSS cho phần phân trang */
 .pagination {
-  text-align: center; /* Căn giữa nội dung phân trang */
-  margin-top: 0px; /* Khoảng cách phía trên phân trang */
+  text-align: center;
+  /* Căn giữa nội dung phân trang */
+  margin-top: 0px;
+  /* Khoảng cách phía trên phân trang */
 }
 
 /* Hiển thị trang hiện tại */
 .current-page {
   font-weight: bold;
-  margin: 0 10px; /* Khoảng cách giữa trang hiện tại và nút Previous hoặc Next */
+  margin: 0 10px;
+  /* Khoảng cách giữa trang hiện tại và nút Previous hoặc Next */
 }
-.sort-buttons{
+
+.sort-buttons {
   display: flex;
   justify-content: center;
   margin-top: 1px;
+}
+
+/*responsive*/
+@media screen and (max-width: 500px) {
+  #header {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #menu-icon::before {
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  #info {
+    width: 22%;
+    height: auto;
+    float: left;
+  }
+
+  .user-avatar>img {
+    width: 64px;
+    height: 64px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  #gauge {
+    width: 50%;
+
+  }
+
+  #chart {
+    width: 30%;
+    height: auto;
+    float: none;
+  }
+
+  #led1,
+  #led2 {
+    width: 40%;
+    min-width: none;
+    float: right;
+  }
+
+  #chartcomponent {
+    width: 10%;
+  }
+
+  .legend-box {
+    width: 30px;
+    height: 15px;
+    margin-right: 5px;
+  }
+
+  .legend-text {
+    margin-right: 20px;
+  }
+
+  #datasensor {
+    width: 67%;
+    float: left;
+  }
+
+  .sensor-data-table {
+    width: 67%;
+    float: left;
+    max-width: 200px;
+  }
 }
