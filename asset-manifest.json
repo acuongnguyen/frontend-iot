@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/frontend-iot/static/css/main.6fe191a5.css",
-    "main.js": "/frontend-iot/static/js/main.7e73f4c1.js",
+    "main.css": "/frontend-iot/static/css/main.70bf1f8f.css",
+    "main.js": "/frontend-iot/static/js/main.58be3de5.js",
     "static/js/787.fade2e9e.chunk.js": "/frontend-iot/static/js/787.fade2e9e.chunk.js",
     "static/media/avt.jpg": "/frontend-iot/static/media/avt.32ef1fe44d0d8c705ece.jpg",
     "index.html": "/frontend-iot/index.html",
-    "main.6fe191a5.css.map": "/frontend-iot/static/css/main.6fe191a5.css.map",
-    "main.7e73f4c1.js.map": "/frontend-iot/static/js/main.7e73f4c1.js.map",
+    "main.70bf1f8f.css.map": "/frontend-iot/static/css/main.70bf1f8f.css.map",
+    "main.58be3de5.js.map": "/frontend-iot/static/js/main.58be3de5.js.map",
     "787.fade2e9e.chunk.js.map": "/frontend-iot/static/js/787.fade2e9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fe191a5.css",
-    "static/js/main.7e73f4c1.js"
+    "static/css/main.70bf1f8f.css",
+    "static/js/main.58be3de5.js"
   ]
 }
